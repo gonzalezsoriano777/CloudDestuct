@@ -1,4 +1,8 @@
 var CloudDestruction = {
-    Population: 20,
-    
-}
+    Towns: 5, 
+    TownPopulation: 120,
+    LocationOfTown:"",
+    NumberOfClouds:"",
+    LocationOfEachCloud:1,
+    SizeOfEachCloud:"13 meters",
+};
