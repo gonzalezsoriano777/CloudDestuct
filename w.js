@@ -1,8 +1,8 @@
 var CloudDestruction = {
     Towns: 5, 
     TownPopulation: 120,
-    LocationOfTown:"",
-    NumberOfClouds:"",
+    LocationOfTown:"Lan, 2134, Lon, 3472",
+    NumberOfClouds:"2",
     LocationOfEachCloud:1,
     SizeOfEachCloud:"13 meters",
 
@@ -17,4 +17,18 @@ cloud2: function() {
     
 
 
+};
+
+var cloudDestroyer = {
+  SizeOfEachCloud: "70 meters",
+  colorOfcloud: "greyish white",
+  numberOfClouds: "2 each",
+  
+  
+  cloudDes: function() {
+      return this.SizeOfEachCloud +  " , " + this.colorOfcloud;
+  }
+  
+  
+  
 };
